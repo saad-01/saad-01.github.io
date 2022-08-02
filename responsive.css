@@ -1,0 +1,177 @@
+@media(min-width:1366px) {
+    #cta .row-cta:nth-child(2) {
+        margin-top: 40px;
+    }
+}
+
+@media(max-width:1300px) {
+    .container-fluid {
+        grid-template-columns: repeat(auto-fill, minmax(240px, 1.8fr));
+    }
+
+
+}
+
+
+@media(max-width:991px) {
+    .row-title {
+        flex-wrap: wrap;
+    }
+
+    .reg {
+        flex-basis: 100%;
+        justify-content: end;
+    }
+
+    .logo-img {
+        flex: 1;
+    }
+
+    .searchbar {
+        flex: 2;
+    }
+}
+
+@media(max-width:768px) {
+    .disp {
+        display: flex;
+    }
+
+    .col {
+        width: 46%;
+    }
+
+    .vanish {
+        display: none;
+    }
+
+    .row-cta {
+        flex-wrap: wrap;
+    }
+
+    #popular .row-cta {
+        padding: 0 20px;
+        justify-content: space-between;
+    }
+
+    #popular .row-cta .col:nth-child(3) {
+        margin-right: auto;
+    }
+
+    #faqs .row-cta .col {
+        width: 46%;
+    }
+
+    #faqs .row-cta {
+        padding: 0 20px;
+    }
+
+    #faqs .row-cta .rt-br:nth-child(4) {
+        display: none;
+    }
+
+    #faqs .row-cta .col:nth-child(5) {
+        margin-right: auto;
+        padding-top: 30px;
+    }
+
+    .f-col {
+        padding-top: 30px;
+        width: 50%;
+    }
+    #footer {
+        padding: 23px 40px 23px 40px;
+    }
+    #cta .row-cta:nth-child(2) {
+        margin-top: 40px;
+    }
+    #cta .row-cta:nth-child(3) {
+        margin-top: 40px;
+    }
+
+}
+
+@media(max-width:576px) {
+    .col {
+        width: 85%;
+        margin-bottom: 20px;
+    }
+
+    #popular .row-cta {
+
+        justify-content: space-evenly;
+    }
+
+    #popular .row-cta .col:nth-child(3) {
+        margin-right: 0px;
+    }
+
+    #faqs .row-cta .col {
+        width: 85%;
+    }
+
+    #faqs .row-cta .rt-br:nth-child(2) {
+        display: none;
+    }
+
+    #faqs .row-cta .col:nth-child(5) {
+        margin-right: 0px;
+    }
+
+    #faqs .row-cta .col:nth-child(3) {
+        padding-top: 30px;
+    }
+
+    #title-bar {
+        padding: 35px 15px 15px 15px;
+    }
+
+    .searchbar {
+        flex-basis: 100%;
+        margin-bottom: 15px;
+        padding: 4px 3px 3px 8px;
+    }
+
+    .logo-img {
+        flex: 0 0 47%;
+        margin-bottom: 15px;
+    }
+
+    .search-icon {
+        margin-left: 10px;
+    }
+
+    #menu {
+        padding: 0 15px 0 15px;
+    }
+
+    #footer {
+        padding: 40px 15px 40px 15px;
+    }
+
+    #faqs .row-cta {
+        padding: 0 15px;
+    }
+    .sec-header {
+        font-size: 20px;
+    }
+    .ref-hd{
+        font-size: 16px;
+    }
+    .faq-header{
+        font-size: 20px;
+    }
+    #cta .row-cta:nth-child(2) {
+        margin-top: 0px;
+    }
+    #cta .row-cta:nth-child(3) {
+        margin-top: 0px;
+    }
+}
+
+@media(max-width:539px) {
+    .container-fluid {
+        grid-auto-rows: 40px;
+    }
+
+}
